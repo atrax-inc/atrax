@@ -10,7 +10,7 @@ relative_permalinks: true
 # Setup
 title:               Atrax Website
 tagline:             Welcome to Atrax Website. Where web comes alive.
-url:                 http://atrax.github.io
+url:                 http://atrax-inc.github.io
 baseurl:             /
 
 # Assets

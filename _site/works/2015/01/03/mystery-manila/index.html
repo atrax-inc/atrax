@@ -1,7 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+  <head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Mystery Manila &middot; Atrax Web Designs
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Atrax Web Designs" href="atom.xml">
+  
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+</head>
+
 
   <body>
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -82,7 +110,20 @@
                 </li>
  -->
             </ul>
-            {% include footer.html %}
+            <div id="sidebar-footer">
+                <div class="footer-logo">
+                	<img src="img/atrax-logo2.png">
+        		</div>
+        		<p>Unit G, Upper Penthouse<br/>
+				252 Senator Gil Puyat Avenue<br/>
+				Burgundy Corporate Tower<br/>
+				Makati City<br/>
+				1200
+				<br/><br/>
+				(632) 551 6169
+
+        		</p>
+            </div>
             
         </div>
         <!-- /#sidebar-wrapper -->
@@ -98,22 +139,67 @@
                         
                     	<div class="work-container">
               				
-              				{% for work in site.categories.works do %}
-              				{% capture slug %}{{ work.title | slugify }}{% endcapture %}
+              				
+              				
               				
               				<div class="work-item">
-                				<a href="{{ work.weburl }}" target="_blank" class="item-link">
+                				<a href="http://crux.ph" target="_blank" class="item-link">
 				                  <div class="item-desc">
                 				    <!-- 
-									<h3><!~~ {{ work.title }} ~~>Something</h3>
-				                    <p class="hidden-sm"><!~~ {{ work.shortDescription }} ~~>Something</p>
+									<h3><!~~ crux ~~>Something</h3>
+				                    <p class="hidden-sm"><!~~ Short Description goes here. ~~>Something</p>
 									 -->
 								  </div>
 																    
-				                  <img src="img/works/{{ slug }}.png" class="img-responsive">
+				                  <img src="img/works/crux.png" class="img-responsive">
 		                		</a>
               				</div>
-              				{% endfor %}
+              				
+              				
+              				
+              				<div class="work-item">
+                				<a href="" target="_blank" class="item-link">
+				                  <div class="item-desc">
+                				    <!-- 
+									<h3><!~~ Mystery Manila ~~>Something</h3>
+				                    <p class="hidden-sm"><!~~ Short Description goes here. ~~>Something</p>
+									 -->
+								  </div>
+																    
+				                  <img src="img/works/mystery-manila.png" class="img-responsive">
+		                		</a>
+              				</div>
+              				
+              				
+              				
+              				<div class="work-item">
+                				<a href="http://www.foxconnbuilders.com" target="_blank" class="item-link">
+				                  <div class="item-desc">
+                				    <!-- 
+									<h3><!~~ foxconn ~~>Something</h3>
+				                    <p class="hidden-sm"><!~~ Short Description goes here. ~~>Something</p>
+									 -->
+								  </div>
+																    
+				                  <img src="img/works/foxconn.png" class="img-responsive">
+		                		</a>
+              				</div>
+              				
+              				
+              				
+              				<div class="work-item">
+                				<a href="" target="_blank" class="item-link">
+				                  <div class="item-desc">
+                				    <!-- 
+									<h3><!~~ freshpinas ~~>Something</h3>
+				                    <p class="hidden-sm"><!~~ Short Description goes here. ~~>Something</p>
+									 -->
+								  </div>
+																    
+				                  <img src="img/works/freshpinas.png" class="img-responsive">
+		                		</a>
+              				</div>
+              				
               				
               
             			</div>

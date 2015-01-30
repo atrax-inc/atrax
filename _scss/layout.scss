@@ -239,6 +239,11 @@
 }
 
 
+@media(min-width:992px) and (max-width:1200px) {
+	.work-item {
+		width: 315px !important;
+	}
+}
 /* 
 footer {
   margin-bottom: 2rem;

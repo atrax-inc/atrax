@@ -2,7 +2,7 @@
 title: Mystery Manila
 layout: default
 category: works
-weburl: #
+weburl: http://mysterymanila.github.io/
 shortDescription: Short Description goes here.
 ---
 
